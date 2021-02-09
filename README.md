@@ -42,3 +42,15 @@ Utilizes prior cell-type marker genes to build a probabilistic model for annotat
 * [SCSA](https://github.com/bioinfo-ibms-pumc/SCSA):
 Combines the prior knowledge of marker genes and user-defined information to annotate cell types based on an annotation model.
 ### Integrating dataset
+* [MNN correction](https://github.com/MarioniLab/MNN2017/):
+Identifies MNN pairs between datasets and uses this information to compute the batch effect. The MNN algorithm assumes that the batch effect is orthogonal to the biological difference, which makes the MNN model more reasonable than the linear model, as in high-dimension space, most random vectors are orthogonal.<br>
+* [FastMNN](https://marionilab.github.io/FurtherMNN2018/theory/description.html):
+Is often used in practice due to its shorter running time, which is achieved by performing dimension reduction before finding neighbours.<br>
+* [MutiCCA](https://satijalab.org/seurat/):
+Employs canonical correlation analysis (CCA), which is implemented in the popular R toolkit Seurat V2.<br>
+* [Harmony](https://github.com/immunogenomics/harmony):
+Projects the high dimensional data into a subspace by PCA and iteratively correct batch effect by maximizing the diversity of batches of similar cells within each cluster.<br>
+* [Seurat V3 and Seurat V4]((https://satijalab.org/seurat/):
+Seurat V3 utilizes prior cell-type marker genes to build a probabilistic model for annotation while Seurat V4 proposes weighted nearest neighbor (WNN) algorithm.<br>
+* [LIGER](https://github.com/welch-lab/liger):
+Employs integrative nonnegative matrix factorization to obtain shared and dataset-specific factors, which are further utilized for clustering and identifying cells by matching to a reference dataset.
