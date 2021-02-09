@@ -12,7 +12,7 @@ Performs k-means clustering several times with different initial values and obta
 [RaceID](https://github.com/dgrun/RaceID):
 Shows great performance in rare cell type identification. Hierarchical clustering tries to build a hierarchy of clusters using either a “bottom-up” or a “top-down” approach.<br>
 [CIDR](https://github.com/VCCRI/CIDR):
-Takes dropout events into consideration and performs hierarchical clustering after dimensionality reduction by principal coordinates analysis (PCoA).
+Takes dropout events into consideration and performs hierarchical clustering after dimensionality reduction by principal coordinates analysis (PCoA).<br>
 [BackSPIN](https://github.com/linnarsson-lab/BackSPIN):
 As an iterative dimension reduction and hierarchical clustering method based on SPIN, shows great improvement in identifying rare cell types.
 ### Trajectory inference
