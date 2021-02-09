@@ -1,7 +1,7 @@
 # Single-cell-downstream-analysis
 ## Critical downstream analysis steps for single-cell RNA sequencing data
 ### Pipeline for analysing scRNA-seq technology
-The whole pipeline of scRNA-seq technology analysis is shown in Figure 1. Owing to the noisy character of scRNA-seq data, data processing steps are generally important; however, elaboration for this part of the analysis is beyond the scope of this review, and we recommend that readers refer to these articles for further information [21-24]. In this review, we focus on downstream analysis, including clustering, trajectory inference, cell type annotation and dataset integration. As shown in Figure 1, we divide popular methods into several categories for better discussion. In each section, we provide our perspectives for choosing proper tools in different situations.
+Owing to the noisy character of scRNA-seq data, data processing steps are generally important; however, elaboration for this part of the analysis is beyond the scope of this review, and we recommend that readers refer to these articles for further information [21-24]. In this review, we focus on downstream analysis, including clustering, trajectory inference, cell type annotation and dataset integration. As shown in Figure 1, we divide popular methods into several categories for better discussion. In each section, we provide our perspectives for choosing proper tools in different situations.
 ### Clustering
 * [Seurat](https://satijalab.org/seurat/):
 As the most popular R package for single-cell sequencing data analysis pipeline, Seurat utilized Louvain method for clustering.<br>
