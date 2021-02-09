@@ -9,6 +9,10 @@ A python package also widely used for single-cell data analysis, which utilizes 
 Performs k-means clustering several times with different initial values and obtains the consensus as the final result. In addition, k-means clustering is extremely sensitive to outlier cells.<br>
 [RaceID](https://github.com/dgrun/RaceID):
 Shows great performance in rare cell type identification. Hierarchical clustering tries to build a hierarchy of clusters using either a “bottom-up” or a “top-down” approach.<br>
+[CIDR](https://github.com/VCCRI/CIDR):
+Takes dropout events into consideration and performs hierarchical clustering after dimensionality reduction by principal coordinates analysis (PCoA).
+[BackSPIN](https://github.com/linnarsson-lab/BackSPIN):
+As an iterative dimension reduction and hierarchical clustering method based on SPIN, shows great improvement in identifying rare cell types.
 ### Trajectory inference
 ### Cell type annotation
 ### Integrating dataset
