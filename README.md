@@ -31,7 +31,9 @@ Employs a cluster-based MST approach for ordering, while the MST is built on clu
 * [SCOEPIUS](https://github.com/rcannood/SCORPIUS):
 Iteratively refines the shortest path through cluster centroids for the low-dimensionality data and then identifies the key genes using the prediction score of ordering by the random forest algorithm.<br>
 * [Tempora](https://github.com/BaderLab/Tempora):
-A newly presented method for novel cell trajectory inference that shows great performance while prior information for time-series data is available.
+A newly presented method for novel cell trajectory inference that shows great performance while prior information for time-series data is available.<br>
+* [PHATE](https://github.com/KrishnaswamyLab/PHATE):
+Uses an affinity-preserving embedding methods for visualizing high dimensional biological data, which is famous for both keeping the global and local information of the input data.
 ### Cell type annotation
 * [SinlgeR](https://github.com/dviraran/SingleR):
 Downloads a reference scRNA-seq dataset with cell type labels and identifies marker genes based on the fold change. Then, it calculates Spearman’s correlation coefficient between cells to be identified and cells with labels. Last, SingleR eliminates the cell type with the least correlation score and iteratively repeats the previous steps until only one cell type remains.<br>
@@ -44,7 +46,9 @@ Directly annotates single cells by identifying the best match in the reference d
 * [Cellassign](https://github.com/Irrationone/cellassign):
 Utilizes prior cell-type marker genes to build a probabilistic model for annotation.<br>
 * [SCSA](https://github.com/bioinfo-ibms-pumc/SCSA):
-Combines the prior knowledge of marker genes and user-defined information to annotate cell types based on an annotation model.
+Combines the prior knowledge of marker genes and user-defined information to annotate cell types based on an annotation model.<br>
+* [SingleCellNet](https://github.com/pcahan1/singleCellNet):
+SingleCellNet is another reference-based method which utilizes muti-class random forest algorithm for cell type annotation.
 ### Integrating dataset
 * [MNN correction](https://github.com/MarioniLab/MNN2017/):
 Identifies MNN pairs between datasets and uses this information to compute the batch effect. The MNN algorithm assumes that the batch effect is orthogonal to the biological difference, which makes the MNN model more reasonable than the linear model, as in high-dimension space, most random vectors are orthogonal.<br>
