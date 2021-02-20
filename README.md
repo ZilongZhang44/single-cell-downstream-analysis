@@ -14,7 +14,11 @@ Shows great performance in rare cell type identification. Hierarchical clusterin
 * [CIDR](https://github.com/VCCRI/CIDR):
 Takes dropout events into consideration and performs hierarchical clustering after dimensionality reduction by principal coordinates analysis (PCoA).<br>
 * [BackSPIN](https://github.com/linnarsson-lab/BackSPIN):
-As an iterative dimension reduction and hierarchical clustering method based on SPIN, shows great improvement in identifying rare cell types.
+As an iterative dimension reduction and hierarchical clustering method based on SPIN, shows great improvement in identifying rare cell types.<br>
+* [SCENIC](https://github.com/aertslab/SCENIC):
+SCENIC has shown its great performance for transcription factor analysis, which is especially useful for facilitating researchers to find key genes for diseases.<br>
+* [MAGIC](https://github.com/KrishnaswamyLab/MAGIC):
+MAGIC learns the manifold of high dimensional data and uses graphs for smoothing.
 ### Trajectory inference
 * [Monocle](http://cole-trapnell-lab.github.io/monocle-release/):
 Tries to build a minimum spanning tree (MST) based on the reduced dimensions (independent component analysis) of gene expression data and then finds the longest path as “pseudotime”.<br>
