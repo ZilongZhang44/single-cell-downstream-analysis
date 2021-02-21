@@ -18,7 +18,9 @@ As an iterative dimension reduction and hierarchical clustering method based on 
 * [SCENIC](https://github.com/aertslab/SCENIC):
 SCENIC has shown its great performance for transcription factor analysis, which is especially useful for facilitating researchers to find key genes for diseases.<br>
 * [MAGIC](https://github.com/KrishnaswamyLab/MAGIC):
-MAGIC learns the manifold of high dimensional data and uses graphs for smoothing.
+Learns the manifold of high dimensional data and uses graphs for smoothing.<br>
+* [TSCAN](https://github.com/zji90/TSCAN):
+Utilizes a mixture of multivariate normal distributions of single-cell data, and the posterior probability is calculated for assigning cells to clusters.
 ### Trajectory inference
 * [Monocle](http://cole-trapnell-lab.github.io/monocle-release/):
 Tries to build a minimum spanning tree (MST) based on the reduced dimensions (independent component analysis) of gene expression data and then finds the longest path as “pseudotime”.<br>
